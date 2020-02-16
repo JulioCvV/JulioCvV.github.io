@@ -25,10 +25,9 @@ p.o-text{
     margin: 0.75rem 0 0 0;
 }
 .o-info-container{
-    max-width: 1024px;
+    max-width: 1096px;
     margin: auto;
     display: flex;
-    background-color: goldenrod;
 }
 .o-aboutMe{
     width: 18rem;
@@ -50,32 +49,27 @@ p.o-text{
 .o-contact-icon{
     width: 1.5rem;
     height: 1.5rem;
-    background-color: chocolate;
     margin: 0 1rem 0 0;
 }
 .o-contact-info{
     display: flex;
     align-items: center;
-    background-color: indigo;
     margin: 1rem 0 1rem 0;
 }
 p,.o-text-cont{
     margin: 0;
 }
 .o-complete-info{
-    background-color: blueviolet;
     margin: 0 0 0 3rem;
 }
 .o-edu-container{
     display: flex;
-    background-color: aquamarine;
     border-bottom: 0.25rem solid lightgray;
 }
 .o-diploma{
     width: 31.5rem;
     display: flex;
     align-items: flex-start;
-    background-color: coral;
     margin: 0 0 1rem 0;
 }
 .o-diplomay{
@@ -87,14 +81,12 @@ p,.o-text-cont{
     justify-content: center;
 }
 .o-diplomai{
-    background-color: white;
     border-radius: 0 0.25rem 0.25rem 0;
     border: 0.1rem solid lightgray;
     width: 21.5rem;
     padding: 0 0.25rem 0 0.25rem;
 }
 .o-lang{
-    background-color: midnightblue;
     margin: 0 0 0 1rem;
 }
 .o-item{
@@ -102,7 +94,6 @@ p,.o-text-cont{
     width: 15rem;
     border-radius: 0.25rem;
     border: 0.1rem solid lightgray;
-    background-color: crimson;
     margin: 0 1rem 1rem 0;
 }
 .o-img-item{
@@ -112,10 +103,8 @@ p,.o-text-cont{
 }
 .o-description-item{
     padding: 0 0.2rem 0 0.2rem;
-    background-color: aliceblue;
 }
 .o-skills{
-    background-color: chartreuse;
     border-bottom: 0.25rem solid lightgray;
     display: flex;
     flex-wrap: wrap;
@@ -128,7 +117,6 @@ p,.o-text-cont{
 .o-project{
     margin: 1rem 0 1rem 0;
     padding: 0.1rem;
-    border: 0.1rem solid lightgray;
     border-radius: 0.25rem;
     display: flex;
 }

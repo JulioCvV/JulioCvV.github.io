@@ -6,6 +6,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: auto;
 }
 h1,h2,h3{
     font-family: 'Montserrat',sans-serif;
@@ -24,7 +25,7 @@ p.o-text{
     margin: 0.75rem 0 0 0;
 }
 .o-info-container{
-    max-width: 1096px;
+    max-width: 1024px;
     margin: auto;
     display: flex;
     background-color: goldenrod;
@@ -63,7 +64,7 @@ p,.o-text-cont{
 }
 .o-complete-info{
     background-color: blueviolet;
-    margin: 0 0 0 1rem;
+    margin: 0 0 0 3rem;
 }
 .o-edu-container{
     display: flex;

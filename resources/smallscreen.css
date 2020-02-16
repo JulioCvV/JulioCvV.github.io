@@ -24,12 +24,13 @@ p.o-text{
     margin: 0.75rem 0 0 0;
 }
 .o-info-container{
-    max-width: 600px;
+    max-width: 300px;
     margin: auto;
 }
 .o-aboutMe{
-    width: 42rem;
+    width: 18rem;
     display: flex;
+    flex-direction: column;
     border-radius: 0.25rem;
     box-shadow: 1px 1px 10px rgb(160, 160, 160);
 }
@@ -59,9 +60,8 @@ p,.o-text-cont{
     border-bottom: 0.25rem solid lightgray;
 }
 .o-diploma{
-    width: 31.5rem;
     display: flex;
-    align-items: flex-start;
+    flex-direction: column;
     margin: 0 0 1rem 0;
 }
 .o-diplomay{
@@ -76,12 +76,8 @@ p,.o-text-cont{
 .o-diplomai{
     border-radius: 0 0.25rem 0.25rem 0;
     border: 0.1rem solid lightgray;
-    width: 21.5rem;
+    width: 18rem;
     padding: 0 0.25rem 0 0.25rem;
-}
-.o-1{
-    display: flex;
-    width: 42rem;
 }
 .o-item{
     display: flex;
@@ -100,23 +96,23 @@ p,.o-text-cont{
 }
 .o-skills{
     border-bottom: 0.25rem solid lightgray;
-    display: flex;
-    flex-wrap: wrap;
-    width: 42rem;
 }
 .o-img-project{
-    width: 15rem;
-    height: 15rem;
+    width: 18rem;
+    height: 18rem;
     border-radius: 0.1rem 0 0 0.1rem;
+    /* margin: 0 1.5rem 0 1.5rem; */
 }
 .o-project{
-    width: 42rem;
+    width: 18rem;
     margin: 1rem 0 1rem 0;
     padding: 0.1rem;
     border: 0.1rem solid lightgray;
     border-radius: 0.25rem;
     display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .o-description-project{
-    margin: 0 1.5rem 0 1.5rem;
+    margin: 1rem 1.5rem 1rem 1.5rem;
 }

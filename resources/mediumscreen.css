@@ -26,10 +26,9 @@ p.o-text{
 .o-info-container{
     margin: auto;
     max-width: 800px;
-    background-color: goldenrod;
+    /* background-color: goldenrod; */
 }
 .o-aboutMe{
-    width: 48.7rem;
     display: flex;
     border-radius: 0.25rem;
     box-shadow: 1px 1px 10px rgb(160, 160, 160);
@@ -65,13 +64,13 @@ p,.o-text-cont{
 }
 .o-edu-container{
     display: flex;
+    flex-wrap: wrap;
     background-color: aquamarine;
     border-bottom: 0.25rem solid lightgray;
 }
 .o-diploma{
     width: 31.5rem;
     display: flex;
-    align-items: flex-start;
     background-color: coral;
     margin: 0 0 1rem 0;
 }
@@ -92,7 +91,9 @@ p,.o-text-cont{
 }
 .o-lang{
     background-color: midnightblue;
-    margin: 0 0 0 1rem;
+}
+.o-1{
+    display: flex;
 }
 .o-item{
     display: flex;
@@ -118,8 +119,8 @@ p,.o-text-cont{
     flex-wrap: wrap;
 }
 .o-img-project{
-    width: 15rem;
-    height: 15rem;
+    width: 12rem;
+    height: 12rem;
     border-radius: 0.1rem 0 0 0.1rem;
 }
 .o-project{

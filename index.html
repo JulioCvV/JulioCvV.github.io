@@ -1,90 +1,116 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Julio César Vallejo Vera</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,700&display=swap&subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 901px)" href="resources/main.css">
+    <link rel="stylesheet" type="text/css" media="screen and (max-width: 900px)" href="resources/mediumscreen.css">
+    <link rel="stylesheet" type="text/css" media="screen and (max-width: 600px)" href="resources/smallscreen.css">
     <script src="main.js"></script>
 </head>
+
 <body>
-    <div id="cvContainer">
+    <div id="cvContainer" class="o-header">
         <h1>Bienvenidos</h1>
         <h3>Hoja de vida de Julio César Vallejo Vera</h3>
     </div>
-    <div id="infoContainer">
+    <div id="infoContainer" class="o-info-container">
         <div id="aboutMeContainer">
             <h2>Acerca de mi</h2>
-            <div id="aboutMeCard">
+            <div id="aboutMeCard" class="o-aboutMe">
                 <img class="o-img-profile" src="resources/Profile.jpg" alt="Imagen de perfil de Julio César Vallejo Vera">
-                <h2>Julio César Vallejo Vera</h2>
-                <p>Soy un estudiante del programa de ingeniería multimedia de la Universidad Autónoma de Occidente y  
-                        actualmente me encuentro en X semestre. Me considero una persona responsable, que le interesa aprender 
-                        nuevas habilidades y que no tiene problema en adaptarse a nuevos entornos, tanto personales como profesionales.
-                        Entre mis intereses se encuentran el diseño y consumo de videojuegos, el modelado y animación 3D, y el desarrollo de sistemas interactivos.
-                </p>
-                <img class="o-contact-icon" src="resources/baseline_email_black_24dp.png">
-                <img class="o-contact-icon" src="resources/baseline_phone_black_24dp.png">
-                <img class="o-contact-icon" src="resources/baseline_phone_iphone_black_24dp.png">
+                <div class="o-infoText">
+                    <h3>Julio César Vallejo Vera</h3>
+                    <p>Soy un estudiante del programa de ingeniería multimedia de la Universidad Autónoma de Occidente y
+                        actualmente me encuentro en X semestre. Me considero una persona responsable, que le interesa
+                        aprender
+                        nuevas habilidades y que no tiene problema en adaptarse a nuevos entornos, tanto personales como
+                        profesionales.
+                        Entre mis intereses se encuentran el diseño y consumo de videojuegos, el modelado y animación
+                        3D, y el desarrollo de sistemas interactivos.
+                    </p>
+                    <div id="contactInfo">
+                        <div id="email" class="o-contact-info">
+                            <img class="o-contact-icon" src="resources/baseline_email_black_24dp.png">
+                            <p class="o-text-cont">julio.vallejo@uao.edu.co juliovera098@hotmail.com</p>
+                        </div>
+                        <div id="phone" class="o-contact-info">
+                            <img class="o-contact-icon" src="resources/baseline_phone_black_24dp.png">
+                            <p>2830650</p>
+                        </div>
+                        <div id="cellphone" class="o-contact-info">
+                            <img class="o-contact-icon" src="resources/baseline_phone_iphone_black_24dp.png">
+                            <p>+57 (301)-784-4236</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div id="completeInfoContainer">
-            <div id="educationContainer">
+        <div id="completeInfoContainer" class="o-complete-info">
+            <div id="educationContainer" class="o-edu-container">
                 <div id="schoolContainer">
                     <h2>Estudios</h2>
-                    <div id="diploma1">
+                    <div id="diploma1" class="o-diploma">
                         <div id="diplomaYear" class="o-diplomay">
                             <h3>2009</h3>
                         </div>
                         <div id="diplomaInfo" class="o-diplomai">
-                            <h2>Colegio Agustiniano Campestre</h2>
-                            <p>Básica primaria</p>
+                            <h3>Colegio Agustiniano Campestre</h3>
+                            <p class="o-text">Básica primaria</p>
                         </div>
                     </div>
-                    <div id="diploma2">
-                            <div id="diplomaYear" class="o-diplomay">
-                                <h3>2015</h3>
-                            </div>
-                            <div id="diplomaInfo" class="o-diplomai">
-                                <h2>Colegio Agustiniano Campestre</h2>
-                                <p>Bachiller academico</p>
-                            </div>
+                    <div id="diploma2" class="o-diploma">
+                        <div id="diplomaYear" class="o-diplomay">
+                            <h3>2015</h3>
+                        </div>
+                        <div id="diplomaInfo" class="o-diplomai">
+                            <h3>Colegio Agustiniano Campestre</h3>
+                            <p class="o-text">Bachiller academico</p>
+                        </div>
                     </div>
-                    <div id="diploma3">
-                            <div id="diplomaYear" class="o-diplomay">
-                                <h3>2015-presente</h3>
-                            </div>
-                            <div id="diplomaInfo" class="o-diplomai">
-                                <h2>Universidad Autónoma de Occidente</h2>
-                                <p>Ingeniería Multimedia</p>
-                            </div>
+                    <div id="diploma3" class="o-diploma">
+                        <div id="diplomaYear" class="o-diplomay">
+                            <h3>2015-presente</h3>
+                        </div>
+                        <div id="diplomaInfo" class="o-diplomai">
+                            <h3>Universidad Autónoma de Occidente</h3>
+                            <p class="o-text">Ingeniería Multimedia</p>
+                        </div>
                     </div>
-                    <div id="diploma4">
-                            <div id="diplomaYear" class="o-diplomay">
-                                <h3>2018</h3>
-                            </div>
-                            <div id="diplomaInfo" class="o-diplomai">
-                                <h2>EC Vancouver</h2>
-                                <p>Curso de idiomas</p>
-                            </div>
+                    <div id="diploma4" class="o-diploma">
+                        <div id="diplomaYear" class="o-diplomay">
+                            <h3>2018</h3>
+                        </div>
+                        <div id="diplomaInfo" class="o-diplomai">
+                            <h3>EC Vancouver</h3>
+                            <p class="o-text">Curso de idiomas</p>
+                        </div>
                     </div>
                 </div>
-                <div id="languajesContainer">
+                <div id="languajesContainer" class="o-lang">
                     <h2>Idiomas</h2>
+                    <div class="o-1">
                     <div id="languaje1" class="o-item">
-                        <img class="o-img-item" src="resources/Espanol.jpg" alt="Bandera de colombia representado el idioma español">
+                        <img class="o-img-item" src="resources/Espanol.jpg"
+                            alt="Bandera de colombia representado el idioma español">
                         <div id="descriptionItem1" class="o-description-item">
                             <h3>Español</h3>
-                            <p>Manejo del idioma: 4.5/5</p>
+                            <p class="o-text">Manejo del idioma: 4.5/5</p>
                         </div>
                     </div>
                     <div id="languaje2" class="o-item">
-                        <img class="o-img-item" src="resources/Ingles.jpg" alt="Bandera del Reino Unido representado el idioma inglés">
+                        <img class="o-img-item" src="resources/Ingles.jpg"
+                            alt="Bandera del Reino Unido representado el idioma inglés">
                         <div id="descriptionItem2" class="o-description-item">
                             <h3>Inglés</h3>
-                            <p>Manejo del idioma: 4/5</p>
+                            <p class="o-text">Manejo del idioma: 4/5</p>
                         </div>
+                    </div>
                     </div>
                 </div>
             </div>
@@ -95,99 +121,99 @@
                         <img class="o-img-item" src="resources/IconoPs-100.jpg" alt="Adobe Photoshop">
                         <div id="descriptionItem3" class="o-description-item">
                             <h3>Adobe Photoshop</h3>
-                            <p>Nivel: 3/5</p>
+                            <p class="o-text">Nivel: 3/5</p>
                         </div>
                     </div>
                     <div id="software2" class="o-item">
-                            <img class="o-img-item" src="resources/IconoAi-100.jpg" alt="Adobe Illustrator">
-                            <div id="descriptionItem4" class="o-description-item">
-                                <h3>Adobe Illustrator</h3>
-                                <p>Nivel: 4/5</p>
-                            </div>
+                        <img class="o-img-item" src="resources/IconoAi-100.jpg" alt="Adobe Illustrator">
+                        <div id="descriptionItem4" class="o-description-item">
+                            <h3>Adobe Illustrator</h3>
+                            <p class="o-text">Nivel: 4/5</p>
+                        </div>
                     </div>
                     <div id="software3" class="o-item">
-                            <img class="o-img-item" src="resources/IconoPr-100.jpg" alt="Adobe Premiere Pro">
-                            <div id="descriptionItem5" class="o-description-item">
-                                <h3>Adobe Premiere Pro</h3>
-                                <p>Nivel: 3/5</p>
-                            </div>
+                        <img class="o-img-item" src="resources/IconoPr-100.jpg" alt="Adobe Premiere Pro">
+                        <div id="descriptionItem5" class="o-description-item">
+                            <h3>Adobe Premiere Pro</h3>
+                            <p class="o-text">Nivel: 3/5</p>
+                        </div>
                     </div>
                     <div id="software4" class="o-item">
-                            <img class="o-img-item" src="resources/IconoXd-100.jpg" alt="Adobe Experience Design">
-                            <div id="descriptionItem6" class="o-description-item">
-                                <h3>Adobe Xd</h3>
-                                <p>Nivel: 4/5</p>
-                            </div>
+                        <img class="o-img-item" src="resources/IconoXd-100.jpg" alt="Adobe Experience Design">
+                        <div id="descriptionItem6" class="o-description-item">
+                            <h3>Adobe Xd</h3>
+                            <p class="o-text">Nivel: 4/5</p>
+                        </div>
                     </div>
                     <div id="software5" class="o-item">
-                            <img class="o-img-item" src="resources/IconoAe-100.jpg" alt="Adobe After Effects">
-                            <div id="descriptionItem7" class="o-description-item">
-                                <h3>Adobe After Effects</h3>
-                                <p>Nivel: 3/5</p>
-                            </div>
+                        <img class="o-img-item" src="resources/IconoAe-100.jpg" alt="Adobe After Effects">
+                        <div id="descriptionItem7" class="o-description-item">
+                            <h3>Adobe After Effects</h3>
+                            <p class="o-text">Nivel: 3/5</p>
+                        </div>
                     </div>
                     <div id="software6" class="o-item">
-                            <img class="o-img-item" src="resources/IconoCh-100.jpg" alt="Adobe Character Animator">
-                            <div id="descriptionItem8" class="o-description-item">
-                                <h3>Adobe Character</h3>
-                                <p>Nivel: 3/5</p>
-                            </div>
+                        <img class="o-img-item" src="resources/IconoCh-100.jpg" alt="Adobe Character Animator">
+                        <div id="descriptionItem8" class="o-description-item">
+                            <h3>Adobe Character</h3>
+                            <p class="o-text">Nivel: 3/5</p>
+                        </div>
                     </div>
                     <div id="software7" class="o-item">
-                            <img class="o-img-item" src="resources/IconoUnity-100.jpg" alt="Unity">
-                            <div id="descriptionItem9" class="o-description-item">
-                                <h3>Unity</h3>
-                                <p>Nivel: 3/5</p>
-                            </div>
+                        <img class="o-img-item" src="resources/IconoUnity-100.jpg" alt="Unity">
+                        <div id="descriptionItem9" class="o-description-item">
+                            <h3>Unity</h3>
+                            <p class="o-text">Nivel: 3/5</p>
+                        </div>
                     </div>
                     <div id="software8" class="o-item">
-                            <img class="o-img-item" src="resources/IconoMaya-100.jpg" alt="Autodesk Maya">
-                            <div id="descriptionItem10" class="o-description-item">
-                                <h3>Autodesk Maya</h3>
-                                <p>Nivel: 4/5</p>
-                            </div>
+                        <img class="o-img-item" src="resources/IconoMaya-100.jpg" alt="Autodesk Maya">
+                        <div id="descriptionItem10" class="o-description-item">
+                            <h3>Autodesk Maya</h3>
+                            <p class="o-text">Nivel: 4/5</p>
+                        </div>
                     </div>
                     <div id="software9" class="o-item">
-                            <img class="o-img-item" src="resources/IconoBlender-100.jpg" alt="Blender">
-                            <div id="descriptionItem11" class="o-description-item">
-                                <h3>Blender</h3>
-                                <p>Nivel: 3/5</p>
-                            </div>
+                        <img class="o-img-item" src="resources/IconoBlender-100.jpg" alt="Blender">
+                        <div id="descriptionItem11" class="o-description-item">
+                            <h3>Blender</h3>
+                            <p class="o-text">Nivel: 3/5</p>
+                        </div>
                     </div>
                     <div id="software10" class="o-item">
-                            <img class="o-img-item" src="resources/IconoAndroid-100.jpg" alt="Android Studio">
-                            <div id="descriptionItem12" class="o-description-item">
-                                <h3>Android Studio</h3>
-                                <p>Nivel: 3/5</p>
-                            </div>
+                        <img class="o-img-item" src="resources/IconoAndroid-100.jpg" alt="Android Studio">
+                        <div id="descriptionItem12" class="o-description-item">
+                            <h3>Android Studio</h3>
+                            <p class="o-text">Nivel: 3/5</p>
+                        </div>
                     </div>
                     <div id="software11" class="o-item">
-                            <img class="o-img-item" src="resources/IconoJava-100.jpg" alt="Lenguaje de programación Java">
-                            <div id="descriptionItem13" class="o-description-item">
-                                <h3>Java</h3>
-                                <p>Nivel: 3/5</p>
-                            </div>
+                        <img class="o-img-item" src="resources/IconoJava-100.jpg" alt="Lenguaje de programación Java">
+                        <div id="descriptionItem13" class="o-description-item">
+                            <h3>Java</h3>
+                            <p class="o-text">Nivel: 3/5</p>
+                        </div>
                     </div>
                     <div id="software12" class="o-item">
-                            <img class="o-img-item" src="resources/IconoChar-100.jpg" alt="Lenguaje de programación C#">
-                            <div id="descriptionItem14" class="o-description-item">
-                                <h3>C#</h3>
-                                <p>Nivel: 3/5</p>
-                            </div>
+                        <img class="o-img-item" src="resources/IconoChar-100.jpg" alt="Lenguaje de programación C#">
+                        <div id="descriptionItem14" class="o-description-item">
+                            <h3>C#</h3>
+                            <p class="o-text">Nivel: 3/5</p>
+                        </div>
                     </div>
                     <div id="software13" class="o-item">
-                            <img class="o-img-item" src="resources/IconoWord-100.jpg" alt="Microsoft Word">
-                            <div id="descriptionItem15" class="o-description-item">
-                                <h3>Ms Word</h3>
-                                <p>Nivel: 4/5</p>
-                            </div>
+                        <img class="o-img-item" src="resources/IconoWord-100.jpg" alt="Microsoft Word">
+                        <div id="descriptionItem15" class="o-description-item">
+                            <h3>Ms Word</h3>
+                            <p class="o-text">Nivel: 4/5</p>
+                        </div>
                     </div>
                     <div id="software14" class="o-item">
-                            <img class="o-img-item" src="resources/IconoExcel-100.jpg" alt="Microsoft Excel">
-                            <div id="descriptionItem16" class="o-description-item">
-                                <h3>Ms Excel</h3>
-                                <p>Nivel: 3/5</p>
-                            </div>
+                        <img class="o-img-item" src="resources/IconoExcel-100.jpg" alt="Microsoft Excel">
+                        <div id="descriptionItem16" class="o-description-item">
+                            <h3>Ms Excel</h3>
+                            <p class="o-text">Nivel: 3/5</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -197,27 +223,42 @@
                     <img class="o-img-project" src="resources/Find_A_Way.jpg" alt="Poster del videojuego Find a Way">
                     <div id="description-project1" class="o-description-project">
                         <h3>Videojuego: Find A Way</h3>
-                        <p>Find a Way-Minimum, es un videojuego desarrollado para computador, con el cual personas de todas la edades a partir de los 10 años  podrán interactuar siendo las personas atraídas por los juegos de acción, más específicamente plataforma, el público objetivo. Su clasificación ESRB es EVERYONE 10+.
-                            Find A Way, se trata sobre la historia de Orson, quien se encuentra recorriendo una misma compañía a través de diferentes períodos de tiempo y dimensiones, buscando fragmentos de una materia llamada Partículas cuánticas para evitar que la tragedia que lo tiene viajando a través del tiempo y espacio se produzca en primer lugar. 
+                        <p>Find a Way-Minimum, es un videojuego desarrollado para computador, con el cual personas de
+                            todas la edades a partir de los 10 años podrán interactuar siendo las personas atraídas por
+                            los juegos de acción, más específicamente plataforma, el público objetivo. Su clasificación
+                            ESRB es EVERYONE 10+.
+                            Find A Way, se trata sobre la historia de Orson, quien se encuentra recorriendo una misma
+                            compañía a través de diferentes períodos de tiempo y dimensiones, buscando fragmentos de una
+                            materia llamada Partículas cuánticas para evitar que la tragedia que lo tiene viajando a
+                            través del tiempo y espacio se produzca en primer lugar.
                         </p>
                     </div>
                 </div>
-                <div id="project2"class="o-project">
-                    <img class="o-img-project" src="resources/Logo_BookSearch.jpg" alt="Logo de la app móvil Booksearch">
+                <div id="project2" class="o-project">
+                    <img class="o-img-project" src="resources/Logo_BookSearch.jpg"
+                        alt="Logo de la app móvil Booksearch">
                     <div id="description-project2" class="o-description-project">
                         <h3>App móvil: BookSearh</h3>
-                        <p>En el marco de la asignatura Desarrollo de Software para Plataformas Móviles, se desarrollo una aplicación móvil para el sistema operativo Android.
-                            Con la aplicación, los usuarios podian consultar los libros y revistas indexadas disponibles en una biblioteca, en este caso, la biblioteca de la UAO. Además 
-                            de poder consultar los textos, se podia realizar la reserva de los mismos, y observar mediante un mapa la locación del texto en las distintas sedes de la institución.
+                        <p>En el marco de la asignatura Desarrollo de Software para Plataformas Móviles, se desarrollo
+                            una aplicación móvil para el sistema operativo Android.
+                            Con la aplicación, los usuarios podian consultar los libros y revistas indexadas disponibles
+                            en una biblioteca, en este caso, la biblioteca de la UAO. Además
+                            de poder consultar los textos, se podia realizar la reserva de los mismos, y observar
+                            mediante un mapa la locación del texto en las distintas sedes de la institución.
                         </p>
                     </div>
                 </div>
-                <div id="project3"class="o-project">
-                    <img class="o-img-project" src="resources/Micromachines.jpg" alt="Carro de policia: proyecto de modelado 3D Micromachines">
+                <div id="project3" class="o-project">
+                    <img class="o-img-project" src="resources/Micromachines.jpg"
+                        alt="Carro de policia: proyecto de modelado 3D Micromachines">
                     <div id="description-project3" class="o-description-project">
                         <h3>Modelado 3D: Micromachines</h3>
-                        <p>Micromachines fue el proyecto desarrollado para la asignatura Modelado y Animación por Computador. En total se desarrollaron dos (2) modelos de vehículos, un carro de policía y un camión monstruo, además de la pista
-                            o circuito en el cual los dos vehículos realizaban la competencia animada. Las herramientas utilizadas para llevar a cabo el proyecto fueron: Autodesk Maya 2019 y Adobe Photoshop e Illustartor.
+                        <p>Micromachines fue el proyecto desarrollado para la asignatura Modelado y Animación por
+                            Computador. En total se desarrollaron dos (2) modelos de vehículos, un carro de policía y un
+                            camión monstruo, además de la pista
+                            o circuito en el cual los dos vehículos realizaban la competencia animada. Las herramientas
+                            utilizadas para llevar a cabo el proyecto fueron: Autodesk Maya 2019 y Adobe Photoshop e
+                            Illustartor.
                         </p>
                     </div>
                 </div>
@@ -225,4 +266,5 @@
         </div>
     </div>
 </body>
+
 </html>

@@ -1,0 +1,398 @@
+.o-header,.o-diplomay{
+    background-color: #12355C;
+    color: white;
+}
+.o-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1,h2,h3{
+    font-family: 'Montserrat',sans-serif;
+    font-weight: bold;
+}
+h3{
+    font-size: 0.85rem;
+    margin: 0.5rem 0 0.5rem 0;
+}
+p{
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: justify;
+    font-size: 1rem;
+}
+p.o-text{
+    margin: 0.75rem 0 0 0;
+}
+.o-info-container{
+    max-width: 1096px;
+    margin: auto;
+    display: flex;
+    background-color: goldenrod;
+}
+.o-aboutMe{
+    width: 18rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 0.25rem;
+    box-shadow: 1px 1px 10px rgb(160, 160, 160);
+}
+.o-img-profile{
+    width: 18rem;
+    height: 18rem;
+    border-radius: 0.25rem 0.25rem 0 0;
+}
+.o-infoText{
+    margin: 1rem 0 1rem 0;
+    padding: 1rem;
+}
+.o-contact-icon{
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: chocolate;
+    margin: 0 1rem 0 0;
+}
+.o-contact-info{
+    display: flex;
+    align-items: center;
+    background-color: indigo;
+    margin: 1rem 0 1rem 0;
+}
+p,.o-text-cont{
+    margin: 0;
+}
+.o-complete-info{
+    background-color: blueviolet;
+    margin: 0 0 0 1rem;
+}
+.o-edu-container{
+    display: flex;
+    background-color: aquamarine;
+    border-bottom: 0.25rem solid lightgray;
+}
+.o-diploma{
+    width: 31.5rem;
+    display: flex;
+    align-items: flex-start;
+    background-color: coral;
+    margin: 0 0 1rem 0;
+}
+.o-diplomay{
+    width: 10rem;
+    height: 2rem;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.o-diplomai{
+    background-color: white;
+    border-radius: 0 0.25rem 0.25rem 0;
+    border: 0.1rem solid lightgray;
+    width: 21.5rem;
+    padding: 0 0.25rem 0 0.25rem;
+}
+.o-lang{
+    background-color: midnightblue;
+    margin: 0 0 0 1rem;
+}
+.o-item{
+    display: flex;
+    width: 15rem;
+    border-radius: 0.25rem;
+    border: 0.1rem solid lightgray;
+    background-color: crimson;
+    margin: 0 1rem 1rem 0;
+}
+.o-img-item{
+    width: 3.2rem;
+    height: 3.2rem;
+    border-radius: 0.1rem 0 0 0.1rem;
+}
+.o-description-item{
+    padding: 0 0.2rem 0 0.2rem;
+    background-color: aliceblue;
+}
+.o-skills{
+    background-color: chartreuse;
+    border-bottom: 0.25rem solid lightgray;
+    display: flex;
+    flex-wrap: wrap;
+}
+.o-img-project{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 0.1rem 0 0 0.1rem;
+}
+.o-project{
+    margin: 1rem 0 1rem 0;
+    padding: 0.1rem;
+    border: 0.1rem solid lightgray;
+    border-radius: 0.25rem;
+    display: flex;
+}
+.o-description-project{
+    margin: 0 1.5rem 0 1.5rem;
+}
+/*less tan 900px */
+@media(max-width: 900px){
+    .o-header,.o-diplomay{
+        background-color: #12355C;
+        color: white;
+    }
+    .o-header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    h1,h2,h3{
+        font-family: 'Montserrat',sans-serif;
+        font-weight: bold;
+    }
+    h3{
+        font-size: 0.85rem;
+        margin: 0.5rem 0 0.5rem 0;
+    }
+    p{
+        font-family: 'Josefin Sans', sans-serif;
+        text-align: justify;
+        font-size: 1rem;
+    }
+    p.o-text{
+        margin: 0.75rem 0 0 0;
+    }
+    .o-info-container{
+        margin: auto;
+        max-width: 800px;
+        background-color: goldenrod;
+    }
+    .o-aboutMe{
+        width: 48.7rem;
+        display: flex;
+        border-radius: 0.25rem;
+        box-shadow: 1px 1px 10px rgb(160, 160, 160);
+    }
+    .o-img-profile{
+        width: 18rem;
+        height: 18rem;
+        border-radius: 0.25rem 0.25rem 0 0;
+    }
+    .o-infoText{
+        margin: 0;
+        padding: 0 1rem 0 1rem;
+        background-color: blue;
+    }
+    .o-contact-icon{
+        width: 1.5rem;
+        height: 1.5rem;
+        background-color: chocolate;
+        margin: 0 1rem 0 0;
+    }
+    .o-contact-info{
+        display: flex;
+        align-items: center;
+        background-color: indigo;
+        margin: 0.5rem 0 0.5rem 0;
+    }
+    p,.o-text-cont{
+        margin: 0;
+    }
+    .o-complete-info{
+        background-color: blueviolet;
+        margin: 0;
+    }
+    .o-edu-container{
+        display: flex;
+        background-color: aquamarine;
+        border-bottom: 0.25rem solid lightgray;
+    }
+    .o-diploma{
+        width: 31.5rem;
+        display: flex;
+        align-items: flex-start;
+        background-color: coral;
+        margin: 0 0 1rem 0;
+    }
+    .o-diplomay{
+        width: 10rem;
+        height: 2rem;
+        font-size: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .o-diplomai{
+        background-color: white;
+        border-radius: 0 0.25rem 0.25rem 0;
+        border: 0.1rem solid lightgray;
+        width: 21.5rem;
+        padding: 0 0.25rem 0 0.25rem;
+    }
+    .o-lang{
+        background-color: midnightblue;
+        margin: 0 0 0 1rem;
+    }
+    .o-item{
+        display: flex;
+        width: 15rem;
+        border-radius: 0.25rem;
+        border: 0.1rem solid lightgray;
+        background-color: crimson;
+        margin: 0 1rem 1rem 0;
+    }
+    .o-img-item{
+        width: 3.2rem;
+        height: 3.2rem;
+        border-radius: 0.1rem 0 0 0.1rem;
+    }
+    .o-description-item{
+        padding: 0 0.2rem 0 0.2rem;
+        background-color: aliceblue;
+    }
+    .o-skills{
+        background-color: chartreuse;
+        border-bottom: 0.25rem solid lightgray;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .o-img-project{
+        width: 15rem;
+        height: 15rem;
+        border-radius: 0.1rem 0 0 0.1rem;
+    }
+    .o-project{
+        margin: 1rem 0 1rem 0;
+        padding: 0.1rem;
+        border: 0.1rem solid lightgray;
+        border-radius: 0.25rem;
+        display: flex;
+    }
+    .o-description-project{
+        margin: 0 1.5rem 0 1.5rem;
+    }
+}
+/*less than 600px*/
+@media(max-width: 600px){
+    .o-header,.o-diplomay{
+        background-color: #12355C;
+        color: white;
+    }
+    h1,h2,h3{
+        font-family: 'Montserrat',sans-serif;
+        font-weight: bold;
+    }
+    .o-header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    h3{
+        font-size: 0.85rem;
+        margin: 0.5rem 0 0.5rem 0;
+    }
+    p{
+        font-family: 'Josefin Sans', sans-serif;
+        text-align: justify;
+        font-size: 1rem;
+    }
+    p.o-text{
+        margin: 0.75rem 0 0 0;
+    }
+    .o-info-container{
+        max-width: 600px;
+        margin: auto;
+    }
+    .o-aboutMe{
+        width: 42rem;
+        display: flex;
+        border-radius: 0.25rem;
+        box-shadow: 1px 1px 10px rgb(160, 160, 160);
+    }
+    .o-img-profile{
+        width: 18rem;
+        height: 18rem;
+        border-radius: 0.25rem 0.25rem 0 0;
+    }
+    .o-infoText{
+        margin: 0;
+        padding: 1rem;
+    }
+    .o-contact-icon{
+        width: 1.5rem;
+        height: 1.5rem;
+        margin: 0 1rem 0 0;
+    }
+    .o-contact-info{
+        display: flex;
+        align-items: center;
+        margin: 1rem 0 1rem 0;
+    }
+    p,.o-text-cont{
+        margin: 0;
+    }
+    .o-edu-container{
+        border-bottom: 0.25rem solid lightgray;
+    }
+    .o-diploma{
+        width: 31.5rem;
+        display: flex;
+        align-items: flex-start;
+        margin: 0 0 1rem 0;
+    }
+    .o-diplomay{
+        width: 10rem;
+        height: 2rem;
+        font-size: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 0.25rem 0 0 0.25rem;
+    }
+    .o-diplomai{
+        border-radius: 0 0.25rem 0.25rem 0;
+        border: 0.1rem solid lightgray;
+        width: 21.5rem;
+        padding: 0 0.25rem 0 0.25rem;
+    }
+    .o-1{
+        display: flex;
+        width: 42rem;
+    }
+    .o-item{
+        display: flex;
+        width: 15rem;
+        border-radius: 0.25rem;
+        border: 0.1rem solid lightgray;
+        margin: 0 1rem 1rem 0;
+    }
+    .o-img-item{
+        width: 3.2rem;
+        height: 3.2rem;
+        border-radius: 0.1rem 0 0 0.1rem;
+    }
+    .o-description-item{
+        padding: 0 0.2rem 0 0.4rem;
+    }
+    .o-skills{
+        border-bottom: 0.25rem solid lightgray;
+        display: flex;
+        flex-wrap: wrap;
+        width: 42rem;
+    }
+    .o-img-project{
+        width: 15rem;
+        height: 15rem;
+        border-radius: 0.1rem 0 0 0.1rem;
+    }
+    .o-project{
+        width: 42rem;
+        margin: 1rem 0 1rem 0;
+        padding: 0.1rem;
+        border: 0.1rem solid lightgray;
+        border-radius: 0.25rem;
+        display: flex;
+    }
+    .o-description-project{
+        margin: 0 1.5rem 0 1.5rem;
+    }
+}

@@ -24,16 +24,13 @@ p.o-text{
     margin: 0.75rem 0 0 0;
 }
 .o-info-container{
-    max-width: 1096px;
     margin: auto;
-    display: flex;
+    max-width: 800px;
     background-color: goldenrod;
 }
 .o-aboutMe{
-    width: 18rem;
+    width: 48.7rem;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     border-radius: 0.25rem;
     box-shadow: 1px 1px 10px rgb(160, 160, 160);
 }
@@ -43,8 +40,9 @@ p.o-text{
     border-radius: 0.25rem 0.25rem 0 0;
 }
 .o-infoText{
-    margin: 1rem 0 1rem 0;
-    padding: 1rem;
+    margin: 0;
+    padding: 0 1rem 0 1rem;
+    background-color: blue;
 }
 .o-contact-icon{
     width: 1.5rem;
@@ -56,14 +54,14 @@ p.o-text{
     display: flex;
     align-items: center;
     background-color: indigo;
-    margin: 1rem 0 1rem 0;
+    margin: 0.5rem 0 0.5rem 0;
 }
 p,.o-text-cont{
     margin: 0;
 }
 .o-complete-info{
     background-color: blueviolet;
-    margin: 0 0 0 1rem;
+    margin: 0;
 }
 .o-edu-container{
     display: flex;

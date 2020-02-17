@@ -21,7 +21,7 @@ p{
     font-size: 1rem;
 }
 p.o-text{
-    margin: 0.75rem 0 0 0;
+    margin: 0.5rem 0 0 0;
 }
 .o-info-container{
     margin: auto;
@@ -99,7 +99,7 @@ p,.o-text-cont{
     border-radius: 0.1rem 0 0 0.1rem;
 }
 .o-description-item{
-    padding: 0 0.2rem 0 0.2rem;
+    padding: 0 0.2rem 0.5rem 0.2rem;
 }
 .o-skills{
     border-bottom: 0.25rem solid lightgray;
